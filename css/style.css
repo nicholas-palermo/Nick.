@@ -1,0 +1,201 @@
+.menuBar > div {
+    float: left;
+    padding-top: 25px;
+    padding-left: 40px;
+    font-size: 24pt;
+    font-family: Cardo, serif;
+    font-weight: bold;
+}
+
+.menuBar > div > a:link, .menuBar div > a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Oswald, serif;
+    text-transform: uppercase;
+}
+
+.navBar{
+    background-color: black;
+    height:80px;
+    margin: 0px;
+    padding:0px;
+}
+
+.navBar > ul{
+    text-align: right;
+    padding-top: 35.5px;
+    padding-right: 40px;
+    margin:0px;
+}
+.navBar > ul > li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+
+.navBar > ul > li > a:link, .navBar > ul > li > a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+}
+
+body{
+    margin:0px;
+    overflow: scroll;
+}
+
+.welcome{
+    text-align: center;
+    font-family: Oswald, sans-serif;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.icon{
+    width: 20px;
+    height: auto;
+}
+
+.iconMedium{
+    width:25px;
+    height: auto;
+
+}
+
+.memoji > img{
+   display: block;
+   margin: 0px auto;
+   width: 100px;
+   height: auto;
+   padding-top: 50px;
+   
+}
+
+.Resume{
+    display: block;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    outline: grey;
+    outline-style: double;
+    width: 800px;
+}
+
+.sendMessage{
+    float: right;
+    padding-right: 300px;
+    padding-top: 25px;
+}
+
+.contactForm{
+    font-family: Cardo, serif;
+} 
+
+.contactForm label {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contactMethods{
+    float: left;
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+h1, h2{
+    font-family: Oswald, sans-serif;
+}
+
+p {
+    font-family: Cardo, serif;
+}
+
+input {
+    padding-right: 230px;
+    box-sizing: border-box;
+}
+
+button, .button  {
+    background-color: Black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Cardo, serif;
+    border-radius: 12px;
+  }
+
+
+  .about h1 {
+      line-height: 35px;
+  }
+  .about {
+      padding-top: 100px;
+      padding-left: 100px;
+      width: 400px;
+      height: auto;
+      float: left;
+  }
+
+  .bioImg {
+    width: 750px;
+    height: auto;
+    padding-top: 60px;
+    padding-left: 100px;
+  }
+
+  .homeBody {
+    background-image: url(/RelatedFiles/background.png);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: top center;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    height:80px;
+    margin: 0px;
+    padding:0px;
+  }
+
+  
+
+  .footerCpyRt {
+      float: left;
+      color: whitesmoke;
+      padding-left: 50px;
+      padding-top: 15px;
+  }
+
+  .footerSocials {
+      float: right;
+      padding-right: 50px;
+      padding-top: 15px;
+      filter: grayscale(100);
+  }
+
+  .footerSocials img {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .contactMethods p a:link, .contactMethods p a:visited {
+      text-decoration: none;
+      color: black;
+      font-size: 14pt;
+      padding-bottom: 5px;
+      padding-left: 10px;
+  }
+
